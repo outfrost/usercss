@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Twitch player resolution fix
 @namespace      github.com/outfrost
-@version        1.0.0
+@version        1.1.0
 @description    Stops unwanted upscaling of stream video feeds by adjusting other page elements; results in a 1920x1080 player on a 2560x1440 display and a 1280x720 player on a 1920x1080 display
 @author         Outfrost
 @license        MIT
@@ -12,7 +12,7 @@
 
 @-moz-document regexp("https://(www\\.)?twitch\\.tv/.*") {
 .side-nav {
-	width: calc(24rem + 20px);
+	width: calc(24rem + 60px);
 }
 
 }
