@@ -17,6 +17,16 @@ In a maximised browser window, on a 2560x1440 display, provides a 1920x1080 stre
 
 Check if it works correctly for you by clicking the cog icon in the stream player, going to "Advanced" and turning on "Video stats". "Display resolution" should be one of those mentioned above. Please report any errors in [issues](https://github.com/outfrost/usercss/issues).
 
+### [Steam Workshop layout fixes](steam-workshop-fixes.user.css)
+
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/outfrost/usercss/master/steam-workshop-fixes.user.css) [![Updates automatically](https://img.shields.io/badge/updates-automatically-882288.svg)](https://raw.githubusercontent.com/outfrost/usercss/master/steam-workshop-fixes.user.css)
+
+A few fixes for annoying issues and sloppy designs in parts of the Steam Workshop page layout.
+
+* Fixes subscribe buttons next to items in Workshop collections phasing into another dimension
+* Makes the item list in collection edit mode a bit taller, so you don't have to second guess whether you've scrolled too far
+Please report any errors in [issues](https://github.com/outfrost/usercss/issues).
+
 ## Contributing
 
 Pull requests open. Please thoroughly explain any changes submitted. [Issues](https://github.com/outfrost/usercss/issues) are a good place to talk about bugs and development.

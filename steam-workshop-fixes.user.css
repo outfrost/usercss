@@ -1,0 +1,26 @@
+/* ==UserStyle==
+@name           Steam Workshop layout fixes
+@namespace      github.com/outfrost
+@version        1.0.0
+@description    Fixes annoying stuff in the Workshop, e.g. disappearing item subscribe buttons in collections
+@author         Outfrost
+@license        MIT
+@homepageURL    https://github.com/outfrost/usercss
+@supportURL     https://github.com/outfrost/usercss/issues
+@updateURL      https://raw.githubusercontent.com/outfrost/usercss/master/steam-workshop-fixes.user.css
+==/UserStyle== */
+
+@-moz-document domain("steamcommunity.com") {
+
+/* Fix the Workshop collection item subscribe buttons phasing into another dimension */
+.workshopItemShortDesc {
+	white-space: initial !important;
+	overflow-wrap: anywhere !important;
+}
+
+/* Make the item list in collection edit mode a bit taller */
+.collectionChoiceSection {
+	height: 640px;
+}
+
+}
