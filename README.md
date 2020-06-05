@@ -25,6 +25,7 @@ A few fixes for annoying issues and sloppy designs in parts of the Steam Worksho
 
 * Fixes subscribe buttons next to items in Workshop collections phasing into another dimension
 * Makes the item list in collection edit mode a bit taller, so you don't have to second guess whether you've scrolled too far
+
 Please report any errors in [issues](https://github.com/outfrost/usercss/issues).
 
 ## Contributing
